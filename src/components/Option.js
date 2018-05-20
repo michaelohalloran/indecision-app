@@ -3,8 +3,8 @@ import React from 'react';
 //STATELESS FUNCTIONAL VERSION OF OPTION
 const Option = (props)=> (
 // console.log('option component loaded');
-    <div>
-        {props.optionText}
+    <div className="option">
+        <p className="option__text">{props.count}. {props.optionText}</p>
         <button 
             className="button button--link"
             onClick={(e)=> {

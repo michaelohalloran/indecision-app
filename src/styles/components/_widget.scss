@@ -5,9 +5,12 @@
 }
 //Widget message
 
-.widget-message {
+.widget__message {
     color: $off-white;
     text-align: center;
+    margin: 0;
+    padding: $l-size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
 }
 
 //widget header 
